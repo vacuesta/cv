@@ -1,0 +1,161 @@
+/* general */
+body {
+  font-family: Montserrat;
+  color: #086972;
+}
+
+/* navar-section */
+#landing-nav {
+  background-color: #f4eeff;
+}
+
+.landing-logo {
+  width: 4.375rem;
+}
+
+/* landing-main-section */
+.landing-head-icon {
+  width: 100%
+}
+
+.landing-header {
+  font-weight: 300;
+  font-size: 1.5625rem;
+}
+
+.landing-main-container {
+  padding-top: 3.75rem;
+  padding-left: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+#landing-main {
+  background-color: #dcd6f7;
+}
+
+.landing-statement {
+  font-size: 4.6875rem;
+  font-weight: bold;
+}
+
+/* quote-section */
+#landing-quote {
+  background-color: #a6b1e1;
+}
+
+.quote-cloud {
+  width: 70%;
+}
+
+.landing-quote-container {
+  padding: none;
+}
+
+.landing-row {
+  margin: auto;
+  text-align: center;
+}
+
+.landing-quote-body {
+  text-align: left;
+  font-size: 1.5625rem;
+  padding-top: 3.75rem;
+  padding-right: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+/* about-page */
+.about-header {
+  font-weight: bolder;
+}
+
+.emph {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.about-main {
+  margin: auto;
+  text-align: left;
+  width: 50%;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+/* contact page */
+.contact-container {
+  margin: auto;
+  text-align: center;
+  padding-top: 6.25rem;
+}
+
+.icon-character {
+  color: #086972;
+}
+
+.icon-character:hover {
+  color: #87dfd6;
+}
+
+/* experience-section */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 3.4375rem;
+  color: #086972;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3.4375rem;
+  color: #086972;
+}
+
+.carousel-container h2 {
+  font-size: 3.125rem;
+  text-align: center;
+}
+
+.carousel-container p {
+  font-size: 1.5625rem;
+}
+
+.carousel-inner {
+  margin: auto;
+  width: 50%;
+  padding: 6.25rem;
+}
+
+/* footer-experience section */
+#experience-footer-section {
+  margin: auto;
+  width 25%;
+  text-align: center;
+}
+#experience-footer-section h2{
+  font-size: 1.25rem;
+}
+#experience-footer-section {
+  padding-bottom: 3.125rem;
+}
+/* media queries */
+@media (max-width: 900px) {
+  .landing-statement {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .landing-header {
+    font-weight: 300;
+    font-size: 0.9375rem;
+  }
+}
